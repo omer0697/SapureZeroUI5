@@ -1,0 +1,53 @@
+<mvc:View 
+    xmlns:tnt="sap.tnt" 
+    controllerName="sapureZero.sapure.controller.App"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    height="100%"
+    >
+    <tnt:ToolPage 
+        id="app" 
+        class="sapUiDemoToolPage"
+    >
+        <tnt:header>
+            <tnt:ToolHeader id="_IDGenToolHeader1">
+                <tnt:content>
+                    <Button id="_IDGenButton1" icon="sap-icon://menu2" press=".onSideNavButtonPress" />
+                    <Image id="_IDGenImage1" src="../images/logo.svg" height="20px" />
+                </tnt:content>
+            </tnt:ToolHeader>
+        </tnt:header>
+        <tnt:sideContent>
+            <tnt:SideNavigation expanded="true" id="navigationList" >
+                <tnt:NavigationList id="_IDGenNavigationList1" >
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem1" text="Start Check" icon="sap-icon://begin" />
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem2" text="History" icon="sap-icon://customer-history"  >
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem3" text="Collection History" icon="sap-icon://begin" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem4" text="Check History" icon="sap-icon://begin"  />
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem7" text="Check Collection" icon="sap-icon://copy" />
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem8" text="Checks" icon="sap-icon://accept" >
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem9" text="SBT Checks" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem10" text="Security Note Checks" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem11" text="Prof Param Checks" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem12" text="Security Policy Checks" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem13" text="Audit Log Checks" />
+                    </tnt:NavigationListItem>
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem14" text="Templates" icon="sap-icon://accounting-document-verification"/>
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem15" text="Scheculer" icon="sap-icon://calendar" />
+                    <tnt:NavigationListItem id="_IDGenNavigationListItem16" text="Destinations" icon="sap-icon://cloud" />
+                </tnt:NavigationList>
+                <tnt:fixedItem>
+                    <tnt:NavigationList id="_IDGenNavigationList2" >
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem5" text="Settings" icon="sap-icon://action-settings" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem6" text="Help" icon="sap-icon://sys-help" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem17" text="Logout" icon="sap-icon://log" />
+                    </tnt:NavigationList>
+                </tnt:fixedItem>
+            </tnt:SideNavigation>
+        </tnt:sideContent>
+        <tnt:mainContents>
+            <App id="mainContents"/>
+        </tnt:mainContents>
+    </tnt:ToolPage>
+</mvc:View>

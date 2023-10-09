@@ -1,0 +1,59 @@
+<mvc:View xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:smarttable="sap.ui.comp.smarttable" xmlns:tnt="sap.tnt" controllerName="sapureZero.sapure.controller.MainView"
+    xmlns:mvc="sap.ui.core.mvc" 
+    xmlns="sap.m"
+    class="px-4 py-4"
+    >
+        
+        <smarttable:SmartTable 
+            id="smartTable"
+            tableType="Table"
+            useVariantManagement="true"
+            useTablePersonalisation="true"
+            header="Start Check"
+            showFullScreenButton="true"
+            showVariantManagement="true"
+            showTablePersonalisation="true"
+            enableAutoColumnWidth="true"
+            >
+            <Table 
+            id="table"
+            items="{path: '/YourEntitySet'}"
+            width="auto"
+            alternateRowColors="true"
+            showNoData="true"
+            growing="true"
+            enableBusyIndicator="true"
+            mode="MultiSelect"
+
+            >
+               <columns>
+                    <Column id="_IDGenColumn1" demandPopin="true">
+                        <Label id="_IDGenLabel1" text="ID" />
+                    </Column>
+                    <Column id="_IDGenColumn2" >
+                        <Label id="_IDGenLabel2" text="Template Name" />
+                    </Column>
+                    <Column id="_IDGenColumn3" >
+                        <Label id="_IDGenLabel3" text="Short Description" />
+                    </Column>
+                    <Column id="_IDGenColumn4" >
+                        <Label id="_IDGenLabel4" text="Created By" />
+                    </Column>
+                    <Column id="_IDGenColumn5" >
+                        <Label id="_IDGenLabel5" text="Number of Collections" />
+                    </Column>
+               </columns>
+               <items>
+                <ColumnListItem id="_IDGenColumnListItem1">
+                    <cells>
+                    <Text id="_IDGenText1" text="{ID}" />
+                    <Text id="_IDGenText2" text="{Name}" />
+                    <Text id="_IDGenText3" text="{Description}" />
+                    <Text id="_IDGenText4" text="{CreatedBy}" />
+                    <Text id="_IDGenText5" text="{NumberOfCollections}" />
+                    </cells>
+                </ColumnListItem>
+                </items>
+            </Table>
+        </smarttable:SmartTable>
+</mvc:View>
