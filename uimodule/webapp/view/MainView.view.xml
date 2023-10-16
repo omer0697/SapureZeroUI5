@@ -24,7 +24,6 @@
             growing="true"
             enableBusyIndicator="true"
             mode="MultiSelect"
-
             >
                <columns>
                     <Column id="_IDGenColumn1" demandPopin="true">

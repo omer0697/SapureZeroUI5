@@ -1,0 +1,26 @@
+{
+    "startCheck": [
+      {
+        "ID": "4",
+        "Name": "SAP Security Note Check Template",
+        "Description": "Streamline SAP Security Note Checks",
+        "CreatedBy": "fatih.aksoy@sapure.com",
+        "NumberOfCollections": "2"
+      },
+      {
+        "ID": "5",
+        "Name": "Security Baseline Template",
+        "Description": "SBT Check Collection Template - Validate Security Baseline Compliance",
+        "CreatedBy": "fatih.aksoy@sapure.com",
+        "NumberOfCollections": "1"
+      },
+      {
+        "ID": "6",
+        "Name": "SEC BASE ALL",
+        "Description": "Security Baseline Template All",
+        "CreatedBy": "christian.fuernsinn@sapure.com",
+        "NumberOfCollections": "1"
+      }
+    ]
+  }
+  
