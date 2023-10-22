@@ -1,0 +1,9 @@
+<mvc:View
+    xmlns:tnt="sap.tnt"
+    controllerName="sapureZero.sapure.controller.CheckHistory"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    height="100%"
+    >
+    <Text id="_IDGenText1" text="Check History" />
+</mvc:View>

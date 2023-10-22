@@ -1,9 +1,9 @@
-<mvc:View xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:smarttable="sap.ui.comp.smarttable" xmlns:tnt="sap.tnt" controllerName="sapureZero.sapure.controller.MainView"
+<mvc:View xmlns:internal="sap.landvisz.internal" xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:smarttable="sap.ui.comp.smarttable" xmlns:tnt="sap.tnt" controllerName="sapureZero.sapure.controller.MainView"
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m"
-    class="px-4 py-4"
+    class="p-4 flex flex-col items-center justify-center"
     >
-        
+        <Image id="_IDGenImage1" src="../images/sapureLogo.svg" height="9rem" class="w-full h-full px-[25rem] my-10" />
         <smarttable:SmartTable 
             id="smartTable"
             tableType="Table"
@@ -14,6 +14,7 @@
             showVariantManagement="true"
             showTablePersonalisation="true"
             enableAutoColumnWidth="true"
+            class="w-full h-20"
             >
             <Table 
             id="table"

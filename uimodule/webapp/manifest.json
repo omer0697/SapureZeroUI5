@@ -71,11 +71,14 @@
       },
       "routes": [
         {
+          "pattern": "",
           "name": "RouteMainView",
-          "pattern": ":?query:",
-          "target": [
-            "TargetMainView"
-          ]
+          "target": "TargetMainView"
+        },
+        {
+          "pattern": "checkhistory",
+          "name": "checkhistory",
+          "target": "checkhistory"
         }
       ],
       "targets": {
@@ -85,6 +88,13 @@
           "clearControlAggregation": false,
           "viewId": "MainView",
           "viewName": "MainView"
+        },
+        "checkhistory": {
+          "viewType": "XML",
+          "transition": "slide",
+          "clearControlAggregation": false,
+          "viewId": "CheckHistory",
+          "viewName": "CheckHistory"
         }
       }
     },

@@ -8,6 +8,10 @@ sap.ui.define(["sap/ui/core/mvc/Controller"], function (BaseController) {
 			const bExpanded = oNavigationList.getExpanded();
 
 			oNavigationList.setExpanded(!bExpanded);
-		}
+		},
+        routingToCollectionHistory: function() {
+            const oRouter = this.getOwnerComponent().getRouter();
+            oRouter.navTo("checkhistory");
+        },
     });
 });

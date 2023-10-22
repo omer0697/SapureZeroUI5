@@ -17,7 +17,7 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
   setTimeout(() => {
     next();
-  }, 1000);
+  }, 500);
 });
 
 // Define your mock services
