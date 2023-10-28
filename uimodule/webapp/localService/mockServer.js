@@ -17,12 +17,16 @@ app.use((req, res, next) => {
 app.use((req, res, next) => {
   setTimeout(() => {
     next();
-  }, 500);
+  }, 2000);
 });
 
 // Define your mock services
 app.get('/startCheck', (req, res) => {
   res.json(startCheck);
+});
+
+app.get("/check_history", (req, res) => {
+  res.json(startCheck.collectionHistory);
 });
 
 // Start the server and make it listen to port 3000

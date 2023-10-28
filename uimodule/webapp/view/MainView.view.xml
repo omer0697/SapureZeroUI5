@@ -1,11 +1,12 @@
-<mvc:View xmlns:internal="sap.landvisz.internal" xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:smarttable="sap.ui.comp.smarttable" xmlns:tnt="sap.tnt" controllerName="sapureZero.sapure.controller.MainView"
+<mvc:View xmlns:vk="sap.ui.vk" xmlns:internal="sap.landvisz.internal" xmlns:smartfilterbar="sap.ui.comp.smartfilterbar" xmlns:smarttable="sap.ui.comp.smarttable" xmlns:tnt="sap.tnt" controllerName="sapureZero.sapure.controller.MainView"
     xmlns:mvc="sap.ui.core.mvc" 
     xmlns="sap.m"
     class="p-4 flex flex-col items-center justify-center"
-    >
-        <Image id="_IDGenImage1" src="../images/sapureLogo.svg" height="9rem" class="w-full h-full px-[25rem] my-10" />
+>
+
+        <Image id="_IDGenImage1" src="../images/sapureLogo.svg" class="sapUiSmallMarginBegin sapUiSmallMarginTop" />
         <smarttable:SmartTable 
-            id="smartTable"
+            id="smartTableStartCheck"
             tableType="Table"
             useVariantManagement="true"
             useTablePersonalisation="true"
@@ -14,11 +15,11 @@
             showVariantManagement="true"
             showTablePersonalisation="true"
             enableAutoColumnWidth="true"
-            class="w-full h-20"
+            class="pt-20"
             >
             <Table 
             id="table"
-            items="{path: '/YourEntitySet'}"
+            items="{path: '/startCheck'}"
             width="auto"
             alternateRowColors="true"
             showNoData="true"

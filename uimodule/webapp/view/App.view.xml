@@ -22,7 +22,7 @@
                 <tnt:NavigationList id="_IDGenNavigationList1" >
                     <tnt:NavigationListItem id="_IDGenNavigationListItem1" text="Start Check" icon="sap-icon://begin" href="#/" />
                     <tnt:NavigationListItem id="_IDGenNavigationListItem2" text="History" icon="sap-icon://customer-history"   >
-                        <tnt:NavigationListItem id="_IDGenNavigationListItem3" text="Collection History" icon="sap-icon://begin" href="#/checkhistory" />
+                        <tnt:NavigationListItem id="_IDGenNavigationListItem3" text="Collection History" icon="sap-icon://begin" href="#/collection-history" />
                         <tnt:NavigationListItem id="_IDGenNavigationListItem4" text="Check History" icon="sap-icon://begin"  />
                     </tnt:NavigationListItem>
                     <tnt:NavigationListItem id="_IDGenNavigationListItem7" text="Check Collection" icon="sap-icon://copy" />

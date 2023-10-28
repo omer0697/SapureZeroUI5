@@ -76,9 +76,9 @@
           "target": "TargetMainView"
         },
         {
-          "pattern": "checkhistory",
-          "name": "checkhistory",
-          "target": "checkhistory"
+          "pattern": "collection-history",
+          "name": "collection-history",
+          "target": "collectionHistory"
         }
       ],
       "targets": {
@@ -89,12 +89,12 @@
           "viewId": "MainView",
           "viewName": "MainView"
         },
-        "checkhistory": {
+        "collectionHistory": {
           "viewType": "XML",
           "transition": "slide",
           "clearControlAggregation": false,
-          "viewId": "CheckHistory",
-          "viewName": "CheckHistory"
+          "viewId": "CollectionHistory",
+          "viewName": "CollectionHistory"
         }
       }
     },
