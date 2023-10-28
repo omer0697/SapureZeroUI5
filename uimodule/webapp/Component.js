@@ -19,6 +19,7 @@ sap.ui.define(["sap/ui/core/UIComponent", "sap/ui/Device", "sapureZero/sapure/mo
             // call the base component's init function
             UIComponent.prototype.init.apply(this, arguments);
 
+
             // enable routing
             this.getRouter().initialize();
 
